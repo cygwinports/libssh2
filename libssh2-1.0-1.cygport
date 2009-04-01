@@ -1,0 +1,7 @@
+DESCRIPTION="SSH2 protocol library"
+HOMEPAGE="http://www.libssh2.org/"
+SRC_URI="mirror://sourceforge/libssh2/${P}.tar.gz"
+
+PKG_NAMES="${PN} ${PN}_1 ${PN}-devel"
+libssh2_1_CONTENTS="usr/bin/cygssh2-1.dll usr/share/doc/"
+libssh2_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/man3/"

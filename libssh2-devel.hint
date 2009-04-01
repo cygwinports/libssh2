@@ -1,0 +1,8 @@
+category: Net
+requires: cygwin libssh2_1 openssl-devel zlib-devel
+external-source: libssh2
+sdesc: "SSH2 protocol library (development)"
+ldesc: "libssh2 is a library implementing the SSH2 protocol as defined 
+by Internet Drafts: SECSH-TRANS, SECSH-USERAUTH, SECSH-CONNECTION, 
+SECSH-ARCH, SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and 
+SECSH-PUBLICKEY."
