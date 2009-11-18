@@ -6,9 +6,9 @@ SECSH-ARCH, SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and
 SECSH-PUBLICKEY.
 
 Runtime requirements:
-  cygwin-1.7.0-62
+  cygwin-1.7.0-64
   libgcc1-4.3.4-1
-  openssl-0.9.8k-2
+  openssl-0.9.8l-2
   zlib0-1.2.3-10
 
 Build requirements:
@@ -16,7 +16,7 @@ Build requirements:
   autoconf2.5-2.63-10
   automake1.9-1.9.6-10
   binutils-2.19.51-1
-  cygport-0.9.9-1
+  cygport-0.9.10-1
   gawk-3.1.7-1
   gcc4-core-4.3.4-1
   libtool-2.2.7a-14
@@ -32,20 +32,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libssh2-1.2.1-X-src.tar.bz2
+  unpack libssh2-1.2.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libssh2-1.2.1-X.cygport all
+  cygport ./libssh2-1.2.2-X.cygport all
 
 This will create:
-  /usr/src/libssh2-1.2.1-X-src.tar.bz2
-  /usr/src/libssh2-devel-1.2.1-X.tar.bz2
-  /usr/src/libssh2_1-1.2.1-X.tar.bz2
+  /usr/src/libssh2-1.2.2-X-src.tar.bz2
+  /usr/src/libssh2-devel-1.2.2-X.tar.bz2
+  /usr/src/libssh2_1-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.2.2-1 -----
+Version bump.
 
 ----- version 1.2.1-1 -----
 Version bump.
