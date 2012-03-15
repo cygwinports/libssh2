@@ -1,5 +1,5 @@
 category: Net
-requires: libopenssl098 zlib0
+requires: libopenssl100 zlib0
 external-source: libssh2
 sdesc: "SSH2 protocol library (runtime)"
 ldesc: "libssh2 is a library implementing the SSH2 protocol as defined 
