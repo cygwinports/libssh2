@@ -1,5 +1,5 @@
 NAME="libssh2"
-VERSION=1.4.3
+VERSION=1.5.0
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="SSH2 protocol library"
@@ -7,13 +7,12 @@ DESCRIPTION="libssh2 is a library implementing the SSH2 protocol as defined
 by Internet Drafts: SECSH-TRANS, SECSH-USERAUTH, SECSH-CONNECTION, SECSH-ARCH,
 SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and SECSH-PUBLICKEY."
 HOMEPAGE="http://www.libssh2.org/"
-SRC_URI="http://www.libssh2.org/download/${P}.tar.gz"
+SRC_URI="http://www.libssh2.org/download/libssh2-${VERSION}.tar.gz"
 PATCH_URI="
 	1.2.7-cygwin.patch
-	1.4.3-as-needed.patch
 "
 
-PKG_NAMES="${PN}_1 ${PN}-devel"
+PKG_NAMES="${NAME}_1 ${NAME}-devel"
 libssh2_1_CONTENTS="usr/bin/cygssh2-1.dll usr/share/doc/"
 libssh2_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/man3/"
 
